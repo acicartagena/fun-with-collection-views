@@ -12,9 +12,10 @@
 		A105C8A61D0698130074E600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A105C8A41D0698130074E600 /* Main.storyboard */; };
 		A105C8A81D0698130074E600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A105C8A71D0698130074E600 /* Assets.xcassets */; };
 		A105C8AB1D0698130074E600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A105C8A91D0698130074E600 /* LaunchScreen.storyboard */; };
-		A105C8B31D069BA20074E600 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A105C8B21D069BA20074E600 /* TableViewCell.swift */; };
-		A105C8B51D069BB60074E600 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A105C8B41D069BB60074E600 /* CollectionViewCell.swift */; };
+		A105C8B31D069BA20074E600 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A105C8B21D069BA20074E600 /* CollectionViewCell.swift */; };
+		A105C8B51D069BB60074E600 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A105C8B41D069BB60074E600 /* ColorCell.swift */; };
 		A105C8B71D069E520074E600 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A105C8B61D069E520074E600 /* Reveal.framework */; };
+		A1CFB3D81D812E9E00697868 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CFB3D71D812E9E00697868 /* LabelCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +26,10 @@
 		A105C8A71D0698130074E600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A105C8AA1D0698130074E600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A105C8AC1D0698130074E600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A105C8B21D069BA20074E600 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		A105C8B41D069BB60074E600 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A105C8B21D069BA20074E600 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A105C8B41D069BB60074E600 /* ColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
 		A105C8B61D069E520074E600 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		A1CFB3D71D812E9E00697868 /* LabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +66,9 @@
 			children = (
 				A105C8A01D0698130074E600 /* AppDelegate.swift */,
 				A105C8A21D0698130074E600 /* ViewController.swift */,
-				A105C8B21D069BA20074E600 /* TableViewCell.swift */,
-				A105C8B41D069BB60074E600 /* CollectionViewCell.swift */,
+				A105C8B21D069BA20074E600 /* CollectionViewCell.swift */,
+				A1CFB3D71D812E9E00697868 /* LabelCell.swift */,
+				A105C8B41D069BB60074E600 /* ColorCell.swift */,
 				A105C8A41D0698130074E600 /* Main.storyboard */,
 				A105C8A71D0698130074E600 /* Assets.xcassets */,
 				A105C8A91D0698130074E600 /* LaunchScreen.storyboard */,
@@ -145,9 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A105C8B31D069BA20074E600 /* TableViewCell.swift in Sources */,
+				A105C8B31D069BA20074E600 /* CollectionViewCell.swift in Sources */,
 				A105C8A31D0698130074E600 /* ViewController.swift in Sources */,
-				A105C8B51D069BB60074E600 /* CollectionViewCell.swift in Sources */,
+				A105C8B51D069BB60074E600 /* ColorCell.swift in Sources */,
+				A1CFB3D81D812E9E00697868 /* LabelCell.swift in Sources */,
 				A105C8A11D0698130074E600 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +328,7 @@
 				A105C8B11D0698130074E600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
