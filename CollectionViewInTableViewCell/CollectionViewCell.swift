@@ -13,10 +13,12 @@ class CollectionViewCell: UITableViewCell {
     static let reusableIdentifier = "CollectionViewCell"
     @IBOutlet weak var collectionView: UICollectionView!
     
-    @IBOutlet weak var flow: UICollectionViewFlowLayout! {
+    @IBOutlet weak var flow: SnapCollectionViewLayout! {
         didSet {
             flow.minimumLineSpacing = 8.0
-            flow.itemSize = CGSizeMake(300.0, 240.0)
+            
+            let screenSizeWidth = UIScreen.mainScreen().bounds.size.width
+            flow.itemSize = CGSizeMake(0.6*screenSizeWidth, 0.6*screenSizeWidth*0.75)
             flow.scrollDirection = .Horizontal
         }
     }
